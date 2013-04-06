@@ -1,0 +1,18 @@
+1. Research up what a compiler does from start to finish, with an emphasis on  dynamic vs static linking.
+2. Write a shell script to do the following.
+
+
+
+The directory structure is as follows
+	
+	/Dir/ 
+		file1 -> /x/y/file1
+		file2 -> /z/q/file2
+		file3- > /x/y/file3
+		file4 -> /x/y/file4
+		file5 -> /o/q/file5
+  etc. 
+
+Find all symlinks that point to a file in /x/y and move the file to /z/q, and update the symlink in /Dir to reflect the new location.
+
+
