@@ -48,7 +48,7 @@ do
 
     file_name=${path##*/} #parses out file name from path
 
-    echo Upating symlink \'$filename\' to point to \'"${DEST}${file_name}"\'
+    echo Upating symlink \'$file_name\' to point to \'"${DEST}${file_name}"\'
     echo
     ln -sf "${DEST}${file_name}" $filename #updating symlink
 
